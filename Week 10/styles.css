@@ -1,0 +1,66 @@
+/* General Styles */
+body, html {
+    height: 100%;
+    font-family: "Inconsolata", sans-serif;
+    background-color: #567d9f; /* Light blue background */
+  }
+  
+  /* Background Image */
+  .bgimg {
+    background-position: center;
+    background-size: cover;
+    background-image: url("https://www.theladders.com/wp-content/uploads/drink-coffee-191101-800x450.jpg");
+    min-height: 75%;
+  }
+  
+  /* Menu Container */
+  .menu {
+    display: none;
+  }
+  
+  /* Top Navigation Links */
+  .w3-top {
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+  }
+  
+  /* Header Text */
+  .w3-text-black {
+    font-size: 90px;
+  }
+  
+  /* About Section */
+  .w3-panel {
+    border-left: 6px solid #ccc;
+  }
+  
+  /* Menu Tab Links */
+  .tablink {
+    cursor: pointer;
+  }
+  
+  .tablink:hover {
+    background-color: #ddd;
+  }
+  
+  /* Menu Container */
+  .menu {
+    display: none;
+  }
+  
+  /* Opening Hours Tag */
+  .w3-tag {
+    background-color: #333;
+    color: white;
+  }
+  
+  /* Footer */
+  footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color: #f1f1f1;
+    padding: 24px;
+  }
+  

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Cafe Dela JG</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<link rel="stylesheet" href="css/styles.css">
+
+</head>
+<body>
+
+<!-- Links (sit on top) -->
+<div class="w3-top">
+  <div class="w3-row w3-padding w3-black">
+    <div class="w3-col s3">
+      <a href="#" class="w3-button w3-block w3-black">HOME</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#about" class="w3-button w3-block w3-black">ABOUT</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#menu" class="w3-button w3-block w3-black">MENU</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#where" class="w3-button w3-block w3-black">WHERE</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header with image -->
+<header class="bgimg w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
+    <span class="w3-tag">Open from 8am to 9pm</span>
+  </div>
+  <div class="w3-display-right w3-center">
+    <span class="w3-text-black" style="font-size:90px">Cafe Dela<br>JG</span>
+  </div>
+  <div class="w3-display-bottomright w3-center w3-padding-large">
+    <span class="w3-text-white">20 No diddy street, 3515</span>
+  </div>
+</header>
+
+<!-- Add a background color and large text to the whole page -->
+<div class="w3-sand w3-grayscale w3-large">
+
+<!-- About Container -->
+<div class="w3-container" id="about">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">ABOUT THE CAFE</span></h5>
+    <p>The Cafe was founded in New York by Mr. JG in Ipsum amet, each dish served gives you a relaxed and feel good flavor with each sip and bite.</p>
+    <p>In addition to our full espresso and brew bar menu, we serve fresh made-to-order breakfast and lunch sandwiches, as well as a selection of sides and salads and other good stuff.</p>
+    <div class="w3-panel w3-leftbar w3-light-grey">
+      <p><i>"Use products from farmers markets sure it may be expensive but the people dont deserve nothing but the best.</i></p>
+      <p>Chef, Coffeeist and Owner: Zack Fair</p>
+    </div>
+    <img src="https://media.istockphoto.com/id/1428594094/photo/empty-coffee-shop-interior-with-wooden-tables-coffee-maker-pastries-and-pendant-lights.jpg?s=612x612&w=0&k=20&c=dMqeYCJDs3BeBP_jv93qHRISDt-54895SPoVc6_oJt4=" style="width:100%;max-width:1000px" class="w3-margin-top">
+    <p><strong>Opening hours:</strong> everyday from 8am to 9pm.</p>
+    <p><strong>Address:</strong> 20 No diddy street, 3515, NY</p>
+  </div>
+</div>
+
+<!-- Menu Container -->
+<div class="w3-container" id="menu">
+  <div class="w3-content" style="max-width:700px">
+ 
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">THE MENU</span></h5>
+  
+    <div class="w3-row w3-center w3-card w3-padding">
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Eat');" id="myLink">
+        <div class="w3-col s6 tablink">Eat</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Drinks');">
+        <div class="w3-col s6 tablink">Drink</div>
+      </a>
+    </div>
+
+    <div id="Eat" class="w3-container menu w3-padding-48 w3-card">
+      <h5>Muffin Squad (Breakfast)</h5>
+      <p class="w3-text-grey">Assortment of fresh baked muffins of your choice. (Banna, Strawberry, Blueberry, Corn) 5.50</p><br>
+    
+      <h5>Honey Almond drizzled Granola with Fruits (Breakfast)</h5>
+      <p class="w3-text-grey">Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</p><br>
+    
+       <h5>Waffle Stackers (Breakfast)</h5>
+      <p class="w3-text-grey"> 3 fluffy belgain waffles served with fruits of your choice and topped with our special homemade syrup 9.00</p><br>
+      
+      <h5>The who were in Paris (Lunch)</h5>
+      <p class="w3-text-grey"> A grilled chicken sandwich served with tomato and lettuce 7.50</p><br>
+    
+      <h5>Jumbled Egg Salad (Lunch)</h5>
+      <p class="w3-text-grey">Jumbled eggs, roasted red pepper and garlic, with green onions also served with a side of toast and bacon 8.50</p><br>
+    
+      
+      <h5>French Onion Soup (Lunch)</h5>
+      <p class="w3-text-grey">Fresh onions, French baugette and Fresh mozzarella 8.50</p><br>
+      
+       <h5>Garden of Eden Salad (Dinner)</h5>
+      <p class="w3-text-grey">lettuce, celery, onion, peperoncini, olives, and cherry tomatoes — all tossed in a dressing made with olive oil, vinegar, grilled chicken and a little mayonnaise. 8.50</p><br>
+      
+      <h5>The Luther (Dinner)</h5>
+      <p class="w3-text-grey"> 2 bacon slices, 1/3 pound organic grass-fed ground beef, 2 slices American cheese, sandwiched in between 2 crispy creme doughnuts 16.00</p><br>
+      
+      <h5>No Diddy (Special)</h5>
+      <p class="w3-text-grey"> Pasta carbona with eggs, hard cheese, fatty cured pork, and black pepper. 13.50</p><br>
+      
+    
+     </div>
+
+    <div id="Drinks" class="w3-container menu w3-padding-48 w3-card">
+      <h5>Coffee</h5>
+      <p class="w3-text-grey">Regular coffee 2.50</p><br>
+    
+      <h5>Chocobo Late</h5>
+      <p class="w3-text-grey">Gold blend espresso with milk and chocolate shavings 4.50</p><br>
+    
+      <h5>Dark Matter </h5>
+      <p class="w3-text-grey">Sambuca and coffee 5.00</p><br>
+    
+      <h5>Iced T</h5>
+      <p class="w3-text-grey">Hot tea, except not hot 3.00</p><br>
+    
+      <h5>Soda</h5>
+      <p class="w3-text-grey">Coke, Sprite, Fanta, . 2.50</p>
+    </div>  
+    <img src="https://www.coffeedetective.com/images/coffee-drinks700.png" style="width:100%;max-width:1000px;margin-top:32px;">
+  </div>
+</div>
+
+<!-- Contact/Area Container -->
+<div class="w3-container" id="where" style="padding-bottom:32px;">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">WHERE TO FIND US</span></h5>
+    <p>This is where our home is at.</p>
+    <img src="https://images.squarespace-cdn.com/content/58cfd41c17bffcb09bd654f0/1618331670353-X33MH2UJL8BOGXAZN541/unsplash-image-8IKf54pc3qk.jpg?format=1500w&content-type=image%2Fjpeg" class="w3-image" style="width:100%">
+    <p><span class="w3-tag">FYI!</span> We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste.</p>
+    <p><strong>Reserve</strong> a table, ask for today's special or just send us a message:</p>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="number" placeholder="How many people" required name="People"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="datetime-local" placeholder="Date and time" required name="date" value="2020-11-16T20:00"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message \ Special requirements" required name="Message"></p>
+      <p><button class="w3-button w3-black" type="submit">SEND MESSAGE</button></p>
+    </form>
+  </div>
+</div>
+
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-light-grey w3-padding-48 w3-large">
+  <p><a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green"></a></p>
+</footer>
+
+<script>
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+}
+document.getElementById("myLink").click();
+</script>
+
+</body>
+</html>
